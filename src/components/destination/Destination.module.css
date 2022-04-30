@@ -1,0 +1,53 @@
+.Destination_title{
+     max-width: 90%;
+     margin: 3rem auto;
+}
+.Destination_title>h1{
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    font-weight: 700;
+    font-family:'GT Eesti', Arial, sans-serif ;
+    color: #1a2b49;
+}
+
+.Destination_div{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 90%;
+    margin:0 auto;
+}
+
+
+.DestinationCards{
+    position: relative;
+    color: #fff;
+    text-align: center;
+    width: 180px;
+    height: 206px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.DestinationCards>img{
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    transition: 0.5s all ease-in-out;
+    
+}
+
+.DestinationCards:hover img{
+    transform: scale(1.5);
+    border-radius: 5px;
+}
+
+.DestinationCards>div{
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  font-size: 1.5rem;
+  text-align: left;
+  line-height: 24px;
+  font-family:"GT Eesti", Arial, sans-serif;
+  font-weight: 700;
+}

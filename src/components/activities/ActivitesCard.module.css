@@ -1,0 +1,67 @@
+.ActivitiesCard{
+    display: grid;
+    grid-template-columns:  auto auto auto auto;
+    gap: 10px;
+    max-width: 90%;
+    margin: 1rem auto;
+}
+.activitiesCard_title{
+     max-width: 90%;
+     margin: 2rem auto;
+}
+.activitiesCard_title>h1{
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    font-weight: 700;
+    font-family:'GT Eesti', Arial, sans-serif ;
+    color: #1a2b49;
+}
+.activiteis_cards{
+    max-width: 275px;
+    height: 318px;
+    border: 1px solid #CAD5E2;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    
+}
+.activiteis_cards_img_div{
+    width: 100%;
+    border-radius: 4px;
+}
+.activiteis_cards_img_div>img{
+    width: 100%;
+}
+.activiteis_cards_details{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.activiteis_cards_detail_title{
+    color: #1a2b49;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    margin-top: 4px;
+    font-family: 'GT Eesti', Arial, sans-serif;
+    font-weight: bold;
+
+}
+.activiteis_cards_detail_all>span, .activiteis_cards_detail_bottom>span{
+    font-family:'GT Eesti', Arial, sans-serif ;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    color: #1a2b49;
+}
+.clr{
+    color: #adad24;
+}
+.activiteis_cards_detail_price{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'GT Eesti', Arial, sans-serif;
+}
+

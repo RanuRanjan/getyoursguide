@@ -1,0 +1,44 @@
+.AllTopAttraction img{
+   position: relative;
+   width: 100%;
+   border-radius: 5px;
+
+}
+.AllTopAttraction img:hover{
+    border: 5px solid #03203C;
+}
+
+.AllTopAttraction{
+    max-width: 85%;
+    gap: 0px;
+
+}
+
+.AllTopAttraction div{
+    position: absolute;
+    color: Red;
+    top: 50%;
+    left: 50%;
+transform: translate(-50%,-50%);
+    font-size: 1rem;
+    text-align: left;
+    /* line-height: 24px; */
+    font-family:"GT Eesti", Arial, sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+
+.Carousel1{
+    max-width: 90%;
+    margin: 2rem auto;
+}
+.Carousel1 h1{
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    font-weight: 700;
+    font-family:'GT Eesti', Arial, sans-serif ;
+    color: #1a2b49;
+    margin: 3rem auto;
+}
+

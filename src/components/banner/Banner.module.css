@@ -1,0 +1,67 @@
+.banner{
+    background-image: url("https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blteda14fd8aa814927/622f0c34b130ac22c454dd92/EASTER22-BRA-mark-C-DE-HP-1600x500-154.jpg?auto=webp");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 500px;
+    /* width: 100vw; */
+}
+.banner_content{
+    width: 90%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.banner_heading{
+    font-size: 3.75rem;
+    font-weight: 700;
+    color: #ffff;
+    line-height: 2rem;
+    margin: 3% 0;
+}
+
+
+
+.banner_SearchBar_main{
+   display: flex;
+   width: 60%;
+   margin: 0 auto;
+}
+.banner_searchBar{
+   background-color: #ffff;
+   margin: 0px auto;
+   width: 80%;
+   padding: 15px;
+   border-radius: 50px;
+}
+.banner_searchBar{
+   font-size: 18px;
+   font-weight: 700;
+}
+.banner_searchBar>input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 1px 5px;
+    font-weight:700;
+    color: black;
+    width: 90%;
+}
+.banner_searchBtn{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 17px 30px;
+    border-radius: 50px;
+    background-color: #0071eb;
+    color: #ffff;
+    font-family:'GT Eesti Pro Display', Arial, sans-serif ;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner_searchBtn:hover{
+
+    background-color: #1a2b49;
+    transition: background-color .2s ease-out;
+}

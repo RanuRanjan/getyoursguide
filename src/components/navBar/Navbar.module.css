@@ -1,0 +1,49 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100vw;
+    padding: 1% 5%;
+}
+header>div{
+    width: 50%;
+}
+.left_header{
+    padding: 0 1%;
+}
+
+.nav_list{
+    display: flex;
+    
+    justify-content: space-around;
+    font-family:'GT Eesti', Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 44px;
+    text-align: left;
+    color:#1a2b49;
+    font-weight: 700;
+}
+
+.btn_signUp{
+      padding: 10px 24px;
+      border-radius: 50px ;
+       background-color: #0071eb;
+       color: #ffffff;
+       font-family: "GT Eesti", "Arial", "sans-serif";
+       border: none;
+       outline: none;
+       font-size: 1rem;
+       font-weight: 700;
+       line-height: 1.375rem;
+       cursor: pointer;
+}
+.btn_signUp:hover{
+    background-color: #1a2b49;
+    transition: background-color .2s ease-out;
+}
+.nav_list_icons1{
+    font-size: 1.1rem;
+}
+.nav_list_icons2{
+    font-size: 1.1rem;
+}

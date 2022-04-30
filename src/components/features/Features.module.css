@@ -1,0 +1,26 @@
+.FeaturesComponent{
+    display: flex;
+    max-width: 33% ;
+
+}
+.Features{
+   max-width: 90%;
+    display: flex;
+    margin: 4rem auto;
+    gap: 1rem;
+    
+}
+.FeaturesComponent h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    margin-bottom: 4px;
+    color: #1a2b49;
+}
+.FeaturesComponent p{
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: #1a2b49;
+    font-weight: 500;
+}

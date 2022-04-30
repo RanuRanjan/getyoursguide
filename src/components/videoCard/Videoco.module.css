@@ -1,0 +1,39 @@
+.VideoComponent{
+    display: flex;
+    max-width: 90%;
+    margin: 2rem auto;
+    flex-wrap: nowrap;
+}
+.VideoComponent>div{
+    gap: 2rem;
+}
+.VideoComponent>div:nth-child(1){
+    max-width: 50%;
+}
+.VideoComponent h2{
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    color: #1a2b49;
+}
+.VideoComponent p{
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: #1a2b49;
+    font-weight: 500;
+}
+.VideoComponent>div:nth-child(2){
+    height: 30vw;
+    max-height: 448px;
+    width: 80%;
+}
+iframe{
+    border: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+
+

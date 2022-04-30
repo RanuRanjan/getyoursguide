@@ -1,0 +1,51 @@
+.TopCountries_main{
+    max-width: 90%;
+    margin: 2rem auto;
+}
+
+.TopCountries{
+    display: flex;
+    width: 100%;
+    margin: 2rem auto;
+    gap: 1rem;
+
+}
+.TopCountries>div{
+     width: 25%;
+     border-radius: 5px;
+     position: relative;
+     overflow: hidden;
+     
+    }
+
+
+ .TopCountries>div img{
+    border-radius: 5px;
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.TopCountries>div img:hover{
+    transform: scale(1.5);
+}
+
+.TopCountries_main h1{
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    font-weight: 700;
+    font-family:'GT Eesti', Arial, sans-serif ;
+    color: #1a2b49;
+}
+.title{
+    position:absolute;
+    top: 50%;
+    left: 20%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffff;
+    transform: translate(10,-50%);
+}
+/* .title:hover{
+    transform: scale(1.5);
+} */

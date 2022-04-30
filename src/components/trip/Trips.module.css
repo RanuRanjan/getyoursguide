@@ -1,0 +1,43 @@
+.trip{
+  max-width: 90%;
+  margin: 2rem auto;
+}
+
+.trip h1{
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    font-weight: 700;
+    font-family:'GT Eesti', Arial, sans-serif ;
+    color: #1a2b49;
+}
+.trip_cards{
+    display: flex;
+    gap: 1rem;
+}
+
+.TripsCard{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 252px;
+    border: 1px solid #CAD5E2;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+.TripsCard>div:nth-child(1){
+    width: 100%; 
+    height: 80%;
+    border-radius: inherit;
+}
+.TripsCard img {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+.TripsCard p {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    color: #1a2b49;
+    margin: 1rem;
+}
